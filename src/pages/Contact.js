@@ -170,7 +170,7 @@ const Contact = () => {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
-                    placeholder="your.email@example.com"
+                    placeholder="email@example.com"
                   />
                 </div>
 
@@ -326,7 +326,7 @@ const Contact = () => {
                           </svg>
                         </a>
                         <a
-                          href="https://twitter.com/vidyathiral"
+                          href="https://x.com/vidyathiral"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="text-gray-600 hover:text-secondary transition duration-300"
