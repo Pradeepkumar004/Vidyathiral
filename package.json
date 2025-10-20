@@ -15,9 +15,7 @@
     "build": "react-scripts build",
     "build:analyze": "npm run build && npx source-map-explorer 'build/static/js/*.js'",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "clean": "rimraf build",
-    "prebuild": "npm run clean"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
