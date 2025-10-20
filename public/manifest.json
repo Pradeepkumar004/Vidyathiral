@@ -1,0 +1,27 @@
+{
+  "short_name": "Vidyathiral",
+  "name": "Vidyathiral - Academic Publishing Services",
+  "description": "Professional academic and research publishing services",
+  "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#003366",
+  "background_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "categories": ["education", "business", "productivity"],
+  "lang": "en-US",
+  "dir": "ltr"
+}

@@ -1,0 +1,30 @@
+# Vidyathiral - Robots.txt
+# Updated: October 2025
+
+# Allow all search engines
+User-agent: *
+Allow: /
+
+# Disallow admin/development paths (if any)
+Disallow: /admin/
+Disallow: /*.json$
+Disallow: /static/js/
+
+# Sitemap location (update with your actual domain)
+Sitemap: https://vidyathiral.me/sitemap.xml
+
+# Crawl-delay for specific bots (optional)
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+# Block bad bots (optional - uncomment if needed)
+# User-agent: AhrefsBot
+# Disallow: /
+
+# User-agent: SemrushBot
+# Disallow: /
